@@ -1,0 +1,93 @@
+body {
+    margin: 10px;
+    font-size: 18px;
+    background-color: aquamarine;
+}
+
+header {
+    text-align: center; 
+    background-color:coral; 
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+header span {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+#startButton, #stopButton, #intervalInput, #clearButton {
+    width: 15%;
+    margin: 5px;
+    height: 30px;
+}
+
+.navigation {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#startButton {
+    background-color: forestgreen;
+    border: 2px solid darkmagenta;
+    color:cyan;
+    font-weight: bold;
+}
+
+#stopButton {
+    background-color: darkred;
+    border: 2px dotted blue;
+    color: chartreuse;
+    font-weight: bold;
+}
+
+#clearButton {
+    background-color: darkslateblue;
+    border: 2px solid rosybrown;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+#intervalInput {
+    border: 2px solid hotpink;
+    background-color: cornflowerblue;
+    color: burlywood;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 30%;
+    margin: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    background-color: aqua;
+    display: none;
+}
+
+#firstrow {
+    background-color: chartreuse;
+    color:darkmagenta ;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color:cadetblue ;
+}
+
+td {
+    font-style: italic;
+}

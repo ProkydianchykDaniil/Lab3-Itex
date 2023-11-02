@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 42px;">Лабораторна робота №3</h1>
+        <h2 style="color:blueviolet; font-size: 24px; font-style: italic;">Використання DOM 
+            засобами мови <span>JavaScript</span></h2>
+    </header>
+
+    <div class="navigation">
+        <label for="intervalInput">Інтервал (мс):</label>
+        <input type="number" id="intervalInput" value="1000">
+        <button id="startButton">Старт</button>
+        <button id="stopButton">Зупинити</button>
+        <button id="clearButton">Очистити</button>
+    </div>
+    <table id="dataTable">
+        <thead>
+            <tr id="firstrow">
+                <th>Прізвище та Ім'я</th>
+                <th>Дисципліна</th>
+                <th>Оцінка</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
