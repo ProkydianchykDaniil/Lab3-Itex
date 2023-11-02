@@ -23,21 +23,6 @@ header span {
     height: 30px;
 }
 
-.navigation {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    width: 100%;
-    position: sticky;
-    z-index: 1;
-    border: 2px solid black;
-    background-color: coral;
-    top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: top 0.3s;
-}
-
 #startButton {
     background-color: forestgreen;
     border: 2px solid darkmagenta;
