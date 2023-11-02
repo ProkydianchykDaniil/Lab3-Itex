@@ -20,7 +20,7 @@ var students = ['Бартновський Микита','Блажиєвськи�
             // Генеруємо випадкові дані
             var randomStudents = students[Math.round(Math.random() * (students.length - 1))];
             var randomDisciolines = disciplines[Math.round(Math.random() * (disciplines.length - 1))];
-            var randomGrade = Math.floor(Math.random() * (100-60) + 60);
+            var randomGrade = Math.floor(Math.random() * (101-59) + 59);
 
             // Вставляємо дані в рядок
             cell1.innerHTML = randomStudents;
